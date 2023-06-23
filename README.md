@@ -14,7 +14,7 @@ The  model_summary  function can be used to print a summary of the model archite
 
 ## Code 2: Helper Functions and Data Loading
 
-File:  helpers.py 
+__File:  helpers.py__ 
 
 This file contains various helper functions for data loading, visualization, and augmentation.
 
@@ -24,7 +24,7 @@ The  plotings  class provides a method for plotting images from the dataset.
 
 ## Code 3: Training and Evaluation
 
-File:  performance.py 
+__File:  performance.py__ 
 
 This file contains the  Performance  class, which is responsible for training and evaluating the model.
 
@@ -33,15 +33,4 @@ The  train  method performs the training loop, iterating over the train data loa
 The  test  method evaluates the trained model on the test data and calculates the accuracy and loss.
 
 The  scores  function returns the training and testing loss and accuracy values.
-
-## Usage
-
-To use this code, follow these steps:
-
-1. Install the required dependencies listed in the  requirements.txt  file.
-
-2. Modify the parameters in the  main.py  file as needed.
-
-3. Run the  main.py  script to train and evaluate the model.
-
 
