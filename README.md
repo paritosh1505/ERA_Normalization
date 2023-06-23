@@ -14,7 +14,7 @@ The  model_summary  function can be used to print a summary of the model archite
 
 ## Code 2: Helper Functions and Data Loading
 
-__File:  helpers.py__ 
+__File:  dataLoader.py__ 
 
 This file contains various helper functions for data loading, visualization, and augmentation.
 
