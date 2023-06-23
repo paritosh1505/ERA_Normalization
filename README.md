@@ -34,3 +34,18 @@ The  test  method evaluates the trained model on the test data and calculates th
 
 The  scores  function returns the training and testing loss and accuracy values.
 
+__File: All_normalization.ipynb__
+
+This code implements a Convolutional Neural Network (CNN) for image classification using the CIFAR-10 dataset. The code consists of several modules for data loading, model definition, performance evaluation, and utility functions.
+
+The main components of the code are as follows:
+
+__dataLoader:__ This module handles the loading and preprocessing of the CIFAR-10 dataset. It provides functions to create train and test data loaders.
+
+__model:__ This module defines the architecture of the CNN model. It includes a Net class that represents the network structure with convolutional and normalization layers.
+
+__performance:__ This module contains the Performance class, which is responsible for training and testing the model. It includes functions to calculate loss, accuracy, and perform model optimization.
+
+__utils:__ This module includes utility functions used in the code, such as allocating device (GPU or CPU), model summary, and other helper functions.
+
+
