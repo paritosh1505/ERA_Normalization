@@ -34,12 +34,6 @@ The `test` method evaluates the trained model on the test data and calculates th
 
 The `scores` function returns the training and testing loss and accuracy values.
 
-## Additional Files
-
-- `main.py`: This file contains the main script for training and evaluating the model.
-
-- `requirements.txt`: This file lists the required dependencies for running the code.
-
 ## Usage
 
 To use this code, follow these steps:
